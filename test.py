@@ -28,4 +28,4 @@ head_df
 # key = st.secrets.some_magic_api.key
 items = st.secrets.items()
 
-items[0]
+str(items)
