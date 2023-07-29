@@ -24,8 +24,6 @@ head_df = df.head(line_count)
 
 head_df
 
-spell = st.secrets['spell']
-key = st.secrets.some_magic_api.key
-
-spell
-key
+# spell = st.secrets['spell']
+# key = st.secrets.some_magic_api.key
+st.secrets.items()
