@@ -25,10 +25,6 @@ head_df = df.head(line_count)
 
 head_df
 
-# spell = st.secrets['spell']
-# key = st.secrets.some_magic_api.key
-# sp = st.secrets.db_password
-
 db = os.environ.get("db_username")
 db
 
