@@ -26,4 +26,6 @@ head_df
 
 # spell = st.secrets['spell']
 # key = st.secrets.some_magic_api.key
-st.secrets.items()
+items = st.secrets.items()
+
+items[0]
