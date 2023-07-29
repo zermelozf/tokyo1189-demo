@@ -24,4 +24,4 @@ head_df = df.head(line_count)
 
 head_df
 
-st.secrets.openai_key
+st.secrets['openai_key']
