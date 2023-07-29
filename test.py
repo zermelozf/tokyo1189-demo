@@ -26,7 +26,7 @@ head_df
 
 # spell = st.secrets['spell']
 # key = st.secrets.some_magic_api.key
-sp = st.secrets.spell
+sp = st.secrets.db_password
 
 sp
 
