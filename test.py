@@ -28,4 +28,5 @@ head_df
 # key = st.secrets.some_magic_api.key
 items = st.secrets
 
-print("something changed")
+st.markdown("""something changed """)
+
