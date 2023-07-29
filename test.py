@@ -1,3 +1,4 @@
+import os
 import streamlit as st
 
 import numpy as np
@@ -26,9 +27,10 @@ head_df
 
 # spell = st.secrets['spell']
 # key = st.secrets.some_magic_api.key
-sp = st.secrets.db_password
+# sp = st.secrets.db_password
 
-sp
+db = os.environ.get("db_username")
+db
 
 
 
