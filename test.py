@@ -26,7 +26,9 @@ head_df
 
 # spell = st.secrets['spell']
 # key = st.secrets.some_magic_api.key
-items = st.secrets
+sp = st.secrets.spell
 
-st.markdown("""something changed """)
+sp
+
+
 
