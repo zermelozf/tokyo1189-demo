@@ -26,6 +26,6 @@ head_df
 
 # spell = st.secrets['spell']
 # key = st.secrets.some_magic_api.key
-items = st.secrets.items()
+items = st.secrets
 
-str(items)
+print("something changed")
