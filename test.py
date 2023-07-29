@@ -28,7 +28,7 @@ head_df
 db = os.environ.get("db_username")
 db
 
-db = st.secrets.items
+db = st.secrets.items()
 db
 
 
